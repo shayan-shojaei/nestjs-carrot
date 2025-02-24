@@ -1,0 +1,3 @@
+export const CARROT_MODULE_OPTIONS = Symbol('CARROT_MODULE_OPTIONS');
+
+export const CARROT_CHANNEL = Symbol('CARROT_CHANNEL');
