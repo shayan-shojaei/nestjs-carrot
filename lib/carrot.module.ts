@@ -4,7 +4,7 @@ import { QueueProvidersHelper } from './helpers';
 import { ProcessorExplorer } from './processor.explorer';
 import { CarrotModuleOptions } from './types';
 import { CARROT_MODULE_OPTIONS } from './constants';
-import { DiscoveryModule, Reflector } from '@nestjs/core';
+import { DiscoveryModule } from '@nestjs/core';
 
 @Module({})
 export class CarrotModule {
@@ -17,7 +17,7 @@ export class CarrotModule {
       global: options.global,
       module: CarrotModule,
       imports: [DiscoveryModule],
-      providers: [CarrotService, ProcessorExplorer, optionsProvider, Reflector],
+      providers: [CarrotService, ProcessorExplorer, optionsProvider],
       exports: [optionsProvider],
     };
   }
