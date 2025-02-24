@@ -16,7 +16,7 @@ export class CarrotService {
     @Inject(CARROT_MODULE_OPTIONS)
     private readonly options: CarrotModuleOptions,
   ) {
-    this.connection = connect(this.options.uri, this.options.connectionOptions);
+    this.connection = connect(this.options.url, this.options.connectionOptions);
   }
 
   getPublisherChannel(queueNames: string[]): ChannelWrapper {
