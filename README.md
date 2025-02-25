@@ -1,5 +1,7 @@
 # Carrot 🥕
 
+![nestjs-carrot banner](https://github.com/shayan-shojaei/nestjs-carrot/blob/main/static/banner.png?raw=true)
+
 A NestJS package that provides a RabbitMQ-based queue system, inspired by [@nestjs/bullmq](https://github.com/nestjs/bull). This package allows you to easily integrate RabbitMQ into your NestJS application for background job processing, task scheduling, and message queuing.
 
 ## Installation
