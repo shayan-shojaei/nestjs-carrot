@@ -1,6 +1,6 @@
 {
   "name": "nestjs-carrot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A RabbitMQ module for Nest.js",
   "author": "shayan-shojaei",
   "license": "MIT",
